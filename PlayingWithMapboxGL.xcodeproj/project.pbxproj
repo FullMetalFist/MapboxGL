@@ -15,6 +15,7 @@
 		7C28B03C1B0F738100038123 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C28B03A1B0F738100038123 /* LaunchScreen.xib */; };
 		7C28B0481B0F738100038123 /* PlayingWithMapboxGLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B0471B0F738100038123 /* PlayingWithMapboxGLTests.m */; };
 		7C28B0521B0F7FE300038123 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C28B0511B0F7FE300038123 /* Settings.bundle */; };
+		7C28B0551B0F823500038123 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B0541B0F823500038123 /* Constants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		7C28B0461B0F738100038123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C28B0471B0F738100038123 /* PlayingWithMapboxGLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingWithMapboxGLTests.m; sourceTree = "<group>"; };
 		7C28B0511B0F7FE300038123 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		7C28B0531B0F823500038123 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7C28B0541B0F823500038123 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		818DFBE110D868E4F9A462C5 /* Pods-PlayingWithMapboxGL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayingWithMapboxGL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayingWithMapboxGL/Pods-PlayingWithMapboxGL.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +103,8 @@
 				7C28B0301B0F738100038123 /* AppDelegate.m */,
 				7C28B0321B0F738100038123 /* ViewController.h */,
 				7C28B0331B0F738100038123 /* ViewController.m */,
+				7C28B0531B0F823500038123 /* Constants.h */,
+				7C28B0541B0F823500038123 /* Constants.m */,
 				7C28B0511B0F7FE300038123 /* Settings.bundle */,
 				7C28B0381B0F738100038123 /* Images.xcassets */,
 				7C28B03A1B0F738100038123 /* LaunchScreen.xib */,
@@ -297,6 +302,7 @@
 				7C28B0341B0F738100038123 /* ViewController.m in Sources */,
 				7C28B0311B0F738100038123 /* AppDelegate.m in Sources */,
 				7C28B02E1B0F738100038123 /* main.m in Sources */,
+				7C28B0551B0F823500038123 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
