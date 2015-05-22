@@ -1,0 +1,4 @@
+#Constants file
+Constants.m
+#Cocoapods directory
+/Pods/*
